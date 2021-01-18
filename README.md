@@ -86,17 +86,17 @@ Les varibles secrètes sont des variables cryptées et fournissent un moyen sûr
   * `Preview` : Variables appliquées lors du prochain déploiement (Démo)
   * `Development` : Utilisé lorsque le projet est executé en local. (Test en local)
 
-### 19
+### 18
 
 Lorsque l'on travaille en équipe pour développer une application, il est préférable de diviser l'application finale en 'fonctionnalités' qui seront développées par les membres de l'équipe sur une branche ne local. Une fois la focntionnalité terminée, il faut réaliser un pull request afin que celle-ci soit mergé sur la branche principale. C'est cette même branche principale qui est deploy et visible en ligne.
 
 ### 19
 
-Lorsque 
+L'action permet de deploy en preview, cela met en preview
 
-### 19
+### 20
 
-Lorsque 
+L'action du merge deploy en production
 
 
 <!-- CONTACT -->
