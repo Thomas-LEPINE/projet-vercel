@@ -72,7 +72,7 @@ Une variable d'environnement est une valeur dynamique, chargée en mémoire, pou
 
 ### 13
 
-Les varibles secrètes sont des variables cryptées et fournissent un moyen sûr de stocker et de partager des informations sensibles entre les déploiements. Elles sont utilisée pour gérer les secrets utilisés dans les variables d'environnement sous un compte.
+Les varibles secrètes sont des variables cryptées et fournissent un moyen sûr de stocker et de partager des informations sensibles entre les déploiements. Elles sont utilisée pour gérer les secrets utilisés dans les variables d'environnement sous un compte. La valeur ne s'affiche pas, on chiffre une information (ex : mot de passe de connexion à une DB)
 
 ### 15
 
