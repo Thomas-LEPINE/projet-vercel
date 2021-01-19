@@ -86,18 +86,29 @@ Les varibles secrètes sont des variables cryptées et fournissent un moyen sûr
   * `Preview` : Variables appliquées lors du prochain déploiement (Démo)
   * `Development` : Utilisé lorsque le projet est executé en local. (Test en local)
 
-### 18
-
-Lorsque l'on travaille en équipe pour développer une application, il est préférable de diviser l'application finale en 'fonctionnalités' qui seront développées par les membres de l'équipe sur une branche ne local. Une fois la focntionnalité terminée, il faut réaliser un pull request afin que celle-ci soit mergé sur la branche principale. C'est cette même branche principale qui est deploy et visible en ligne.
-
 ### 19
 
-L'action permet de deploy en preview, cela met en preview
+* 19.1 : Lorsque l'on travaille en équipe pour développer une application, il est préférable de diviser l'application finale en 'fonctionnalités' qui seront développées par les membres de l'équipe sur une branche ne local. Une fois la focntionnalité terminée, il faut réaliser un pull request afin que celle-ci soit mergé sur la branche principale. C'est cette même branche principale qui est deploy et visible en ligne.
+
+* 19.2 : Vercel récupère automatiquement les modifications et réalise le deploy des modifications en preview
 
 ### 20
 
-L'action du merge deploy en production
+L'action du merge permet deploy en production les dernières onctionnalités oppérationnelles
 
+### 21
+
+* L'environement de prodution correspond à la branche master.
+* Le pull request permet de publier et proposer une contribution sur un projet une fois qu'une nouvelle fonctionnalité est terminée et testée.
+* Création d'une nouvelle branche depuis la branche principale. Développement et tests réalisés sur cette branche en local / en ligne sur la preview. Une fois la fonctionnalité terminée, un pull request est réalisé puis un merge.
+
+### 22
+
+Le serverless est lorsque le fournisseur de serveur gère dynamiquement les ressources allouées au service client. Le prix dépendra donc des ressources consommées et non des capacités d'un serveur acheté à l'avance. Cela peut-être utiles pour les sites avec des affluences très variables (ex : 24h du Mans, chocolateries, ...)
+
+### Plus
+
+`ng generate component api/date`
 
 <!-- CONTACT -->
 ## Contact
